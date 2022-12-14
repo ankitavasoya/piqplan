@@ -1,0 +1,1214 @@
+.formControl {
+    margin: 20PX;
+    width: 300
+}
+
+.indeterminateColor {
+    color: "#f50057"
+}
+
+.selectAllText {
+    font-weight: 500
+}
+
+.selectedAll {
+    background-color: "rgba(0, 0, 0, 0.08)",
+    /* "&:hover" {
+        backgroundColor: "rgba(0, 0, 0, 0.08)"
+    }*/
+}
+
+@media (max-width:1535px) {
+    .detail-img {
+        display: none !important;
+    }
+}
+
+@media (max-width:1440px) {
+    .hero-text h3 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .title {
+        font-size: 32px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .video-component .text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    /* .solutions-main .hero-content .hero-text {
+        padding-top: 100px;
+    } */
+
+    .solutions-main .hero-content .hero-text h3 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .solutions-main .hero-content .hero-text h5 * {
+        font-size: 18px;
+        line-height: 30px
+    }
+
+    .medicare-advisor-card {
+        min-height: 561px;
+    }
+
+    .card-header {
+        font-size: 28px;
+        line-height: 40px;
+        padding-bottom: 30px;
+    }
+
+    .card-last-text {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+
+    .learn-cards .card h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .profile-main {
+        flex-direction: column;
+    }
+
+    .user-profile {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .user-name-pic {
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .user-name .lable {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .follow-socialmedia .lable {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .user-name .name {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .user-data .value {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    /* .filter-select {
+        width: 250px;
+    } */
+
+
+    .inquiry-content-detail .title {
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+    .plan-detail .carrier-date label {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .plan-detail .carrier-date .value {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .card-detail .plan-name {
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+    .card-detail .plan-type-number {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .contact-us-bg .detail h1 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .contact-us-bg .detail p {
+        font-size: 18px;
+        line-height: 31px;
+    }
+
+    .contact-us-bg .form {
+        padding: 30px;
+    }
+
+    .add-doctor-body h2 {
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+    .add-doctor-body h4 {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .schedule .card .card-header h3 {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .schedule .card .header-time h6 {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .card-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .schedule .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .schedule .description {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .blog-body {
+        width: 85%;
+    }
+
+    .blog-body .blog-title {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .blog-head-content .blog-title {
+        font-size: 32px;
+        line-height: 47px;
+    }
+
+}
+
+@media (min-width:1200px) {
+    .header-logo-manu {
+        display: none !important;
+    }
+
+    .enrollment-section-input-main.button {
+        overflow: inherit;
+    }
+
+}
+
+@media (max-width:1320px) {
+    .contact-us-bg .detail .contact-btn {
+        flex-direction: column;
+    }
+
+    .contact-us-bg .detail .contact-btn .button {
+        width: 90%;
+    }
+
+}
+
+@media (max-width:1280px) {
+    /* .filter-select {
+        width: 300px;
+    } */
+
+    .contact-us-componen .MuiGrid-container {
+        justify-content: center;
+    }
+
+    .contact-us-componen .detail {
+        text-align: center;
+    }
+
+    .solutions-main .hero-content {
+        height: 725px;
+    }
+
+    .enrollment-section {
+        flex-wrap: wrap;
+    }
+
+    .solutions-main .hero-content .hero-text {
+        padding-top: 90px;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+    .card-number-img {
+        margin-bottom: 30px;
+    }
+
+    .hero-text h3 {
+        font-size: 32px;
+        line-height: 47px;
+    }
+
+    .get-demo .text {
+        margin-bottom: 15px;
+    }
+
+    .nav-main {
+        padding: 0px 50px !important;
+    }
+
+    .solutions-main .hero-content .hero-text {
+        padding-top: 100px;
+    }
+
+    .solutions-main .hero-content .hero-text h5 * {
+        margin-bottom: 80px;
+    }
+
+    .solutions-main .hero-content .hero-text {
+        padding: 80px;
+    }
+
+    /* .medicare-advisor-card {
+        min-height: 401px;
+    } */
+
+    .card-header {
+        font-size: 24px;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    .card-last-text {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    .card-number {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .learn-cards .card {
+        padding: 20px;
+    }
+
+    .user-data {
+        min-width: 46%;
+    }
+
+    .user-name .name {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .header-logo-manu {
+        display: block !important;
+    }
+
+    .plan-card-footer {
+        flex-direction: column;
+    }
+
+    .plan-tab {
+        justify-content: start !important;
+    }
+
+    .plan-tab a {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .plan-details-table th {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .plan-details-table td:first-child {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .plan-details-table td {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .plan-details-table td a {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .plan-details-table .col-span-header h1 {
+        font-size: 18px !important;
+        line-height: 26px !important;
+    }
+
+    .inquiry-content-detail .title {
+        font-size: 24px;
+        line-height: 37px;
+    }
+
+    .inquiry-content-detail .sub-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .inquiry-content-amount .amount h5 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .welcome-content {
+        flex-direction: column;
+    }
+
+    .create-account {
+        margin-top: 30px;
+    }
+
+    .learn .medicare-advisor-card {
+        height: auto !important;
+    }
+
+    .card-2 {
+        height: auto !important;
+    }
+
+}
+
+@media (max-width:1100px) {
+    /* .filter-select {
+        width: 230px;
+    } */
+}
+
+@media (max-width:1024px) {
+    .video-component {
+        padding-top: 60px;
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 10px;
+    }
+
+    .video-component .text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .footer-main {
+        padding: 18px 50px;
+    }
+
+    .solutions-main .hero-content .hero-text h3 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .solutions-main .hero-content .hero-text h5 * {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .medicare-advisor-card {
+        min-height: 450px;
+    }
+
+    .plan-list-title h1 {
+        font-size: 30px;
+        line-height: 46px;
+    }
+
+
+    .plan-list-title h5 {
+        font-size: 18px;
+    }
+
+    .markets-served-header h4 {
+        font-size: 28px;
+        line-height: 41px;
+    }
+
+    .markets-served-header h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .inquiry-content .sub-title {
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .inquiry-content .title {
+        text-align: center;
+    }
+
+    .inquiry-content-amount .team-condition label {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .inquiry-detail .value {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .card-detail .plan-name {
+        font-size: 24px;
+        line-height: 37px;
+    }
+
+    .plan-compare-card {
+        width: 306px;
+    }
+
+    .contact-us-bg .detail h1 {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+    .add-doctor-body h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .schedule .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .card-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .schedule .card .content h6 {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .card-cookie {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .schedule .card {
+        padding: 20px;
+    }
+
+    .talk-to-advisers {
+        padding: 192px 60px;
+    }
+
+    .blog-body {
+        width: 90%;
+    }
+
+    .blog-body .blog-text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .blogwriter .lable {
+        font-size: 20px;
+        line-height: 31px;
+    }
+
+    .blog-head-content .blog-title {
+        font-size: 28px;
+        line-height: 43px;
+    }
+
+    .blog-head-content .blog-title {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width:991px) {
+    .plan-list-filter-inner {
+        display: block;
+    }
+
+    .markets-served {
+        padding: 20px;
+    }
+
+    .enroll-card-text {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .inquiry-detail {
+        flex-direction: column;
+    }
+
+    .inquiry-detail-inner {
+        text-align: center;
+    }
+
+    .welcome-bg {
+        padding: 170px 50px;
+    }
+
+    .add-doctor-dialog .MuiDialog-paper {
+        max-width: 90%;
+        min-width: 90% !important;
+        overflow-y: initial;
+    }
+
+    .add-doctor-dialog.captcha-verification .MuiDialog-paper {
+        max-width: 90% !important;
+        min-width: 90% !important;
+        overflow-y: initial;
+    }
+
+    .plan-type-filter {
+        display: none;
+    }
+
+    .blog-head-content {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    .blog-head-content img {
+        display: none;
+    }
+
+    /* .blog-head-content-inner{
+        padding: 100px 0px;
+        text-align: center;
+    } */
+}
+
+@media (max-width:900px) {
+    .contact-us-bg .detail .contact-btn {
+        flex-direction: row;
+    }
+}
+
+@media (max-width:830px) {
+    .user-data {
+        min-width: 46%;
+    }
+}
+
+@media (max-width:800px) {
+    .filter-section {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width:768px) {
+    .get-demo {
+        text-align: center !important;
+    }
+
+    .nav-main {
+        padding: 0px 20px !important;
+    }
+
+    .footer-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .footer-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 13px;
+    }
+
+    .solutions-main .hero-content .hero-text h5 * {
+        margin-bottom: 30px;
+    }
+
+    .solutions-main .hero-content .hero-text {
+        padding: 60px;
+    }
+
+    .responsive-footer-logo {
+        display: block;
+    }
+
+    .footer-logo {
+        display: none;
+    }
+
+    .filter-main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .plan-card-title {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .markets-served-header h4 {
+        font-size: 24px;
+        line-height: 37px;
+    }
+
+    .markets-served-header p,
+    .markets-served-header span {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .markets-served-body .lable {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .markets-served-body h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .markets-served-body h6 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .plan-list-title h1 {
+        font-size: 24px;
+        font-size: 30px;
+    }
+
+    .plan-list-title {
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .plan-details-table td {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .plan-details-table .col-span-header p {
+        font-size: 16px !important;
+        line-height: 38px !important;
+    }
+
+    .enroll-card-text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .header-plan-card {
+        flex-direction: column;
+        justify-content: start;
+        row-gap: 16px;
+        align-items: flex-start;
+    }
+
+    .inquiry-content-detail .title {
+        font-size: 24px;
+        line-height: 37px;
+    }
+
+    .inquiry-content-detail {
+        padding: 20px;
+    }
+
+    .plan-list-filter a {
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    .contact-us-bg .detail .contact-btn {
+        flex-direction: column;
+    }
+
+    .contact-us-bg .detail .contact-btn .button {
+        width: 90%;
+    }
+
+    .product-data-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .talk-to-advisers {
+        padding: 192px 30px 0px;
+    }
+
+}
+
+@media (max-width:670px) {
+
+    .enrollment-section {
+        justify-content: center;
+    }
+
+    .enrollment-section-input-main {
+        width: 100%;
+    }
+
+    .enrollment-section .enrollment-section-input {
+        width: 93.5%;
+    }
+
+    .solutions-main .hero-content {
+        height: 813px;
+    }
+
+    .solutions-main .hero-content .hero-text {
+        padding: 60px 30px;
+        width: 90%;
+    }
+
+    .enrollment-section-input {
+        padding: 12px 14px !important;
+    }
+
+    .p-16-60 {
+        padding: 12px 40px !important;
+    }
+
+    .plan-card-footer-inner {
+        flex-direction: column;
+    }
+
+    .plan-card-footer-inner button {
+        width: 100% !important;
+    }
+
+    .get-demo input {
+        padding: 12px 16px;
+    }
+
+
+}
+
+@media (max-width:574px) {
+    .hero-text h3 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .home-main .hero-content {
+        height: 444px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .video-component {
+        padding-top: 30px;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    .video-component .text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .video-component img {
+        margin-top: 20px;
+    }
+
+    .footer-main {
+        padding: 18px 30px;
+    }
+
+    .solutions-main .hero-content .hero-text h5 * {
+        margin-bottom: 30px;
+    }
+
+    .solutions-main .hero-content .hero-text h3 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .solutions-main .hero-content .hero-text h5 * {
+        font-size: 14px;
+        line-height: 25px
+    }
+
+    .solutions-main .hero-content .hero-text {
+        padding: 40px 0px;
+        width: 95%;
+    }
+
+    .card-header {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .card-number {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .learn-cards .card h2 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .plan-card-footer-inner button {
+        width: 100% !important;
+    }
+
+    .welcome-bg {
+        padding: 170px 30px 50px;
+    }
+
+    .welcome-content {
+        padding: 20px;
+    }
+
+    .login-input {
+        width: 90% !important;
+    }
+
+    .contact-us-bg .detail h1 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    /* .add-prescription-footer button {
+        width: 100%;
+        margin: 0px !important;
+    } */
+
+    .add-doctor-body {
+        padding: 16px !important;
+    }
+
+    .add-doctor-body .doctorName {
+        min-width: auto !important;
+    }
+
+    .schedule .title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .blog-head-content .blog-title {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+}
+
+@media (max-width:440px) {
+    .add-doctor.product-select {
+        width: 100% !important;
+    }
+
+    .schedule .date-picore .MuiCalendarPicker-root {
+        width: 300px !important;
+    }
+
+    .card-2.date-picore {
+        padding: 0px;
+        background-color: #FFFFFF;
+    }
+}
+
+@media (max-width:375px) {
+    .plan-list-filter a {
+        font-size: 16px;
+    }
+
+    .user-profile {
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    .user-name-pic {
+        flex-direction: column;
+        min-width: auto;
+        text-align: start;
+        align-items: flex-start;
+    }
+
+    .user-profile {
+        flex-direction: column;
+        min-width: auto;
+        text-align: start;
+    }
+
+    .login input {
+        margin-bottom: 0px;
+    }
+
+    .solutions-main .hero-content {
+        height: 880px;
+    }
+
+    .enrollment-section-input {
+        padding: 12px !important;
+    }
+
+    .talk-to-advisers {
+        padding: 192px 10px 0px;
+    }
+
+    .blog-body .written-by .info {
+        flex-direction: column;
+    }
+
+    .blogwriter-profile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .blog-body .written-by {
+        flex-direction: column;
+    }
+
+}
+
+/* ===============>spinner css<============== */
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-spinner {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+}
+
+/* .loading-spinner::after {
+    content: url(./assets/images/loader.svg);
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.loader-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    user-select: none !important;
+}
+
+/* .loading-spinner img{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.react-datepicker__input-container {
+    margin-top: 8px;
+    position: relative;
+}
+
+.react-datepicker__input-container input {
+    padding: 10px !important;
+    border: 1px solid #1C2C54 !important;
+    border-radius: 6px !important;
+    width: 90%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C2C54;
+    cursor: pointer;
+}
+
+.react-datepicker__input-container::after {
+    content: url(./assets/images/date-picore.png);
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-0px, -50%);
+    cursor: pointer;
+}
+
+.react-datepicker__header {
+    background-color: #FFFFFF !important;
+    border: none !important;
+}
+
+.react-datepicker__triangle {
+    display: none !important;
+}
+
+/* .react-datepicker__month-container {
+    min-width: 300px !important;
+} */
+
+.react-datepicker__day-names {
+    margin-top: 24px !important;
+}
+
+.react-datepicker__current-month {
+    background-color: #FAFAFA;
+    padding: 16px 24px;
+    text-align: start;
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 30px !important;
+    color: #1C2C54 !important;
+}
+
+.react-datepicker__navigation--next {
+    right: 4px !important;
+    top: 7% !important;
+}
+
+.react-datepicker__navigation--previous {
+    right: 38px !important;
+    left: auto !important;
+    top: 7% !important;
+}
+
+.react-datepicker {
+    border: 1px solid #1C2C54 !important;
+    border-radius: 0px !important;
+}
+
+.react-datepicker__day--in-range {
+    background-color: #ECF5FE !important;
+    border-radius: 50% !important;
+    color: #4197F7 !important;
+    font-size: 12px !important;
+}
+
+.react-datepicker__day:hover {
+    background-color: #ECF5FE !important;
+    border-radius: 50% !important;
+    color: #4197F7 !important;
+    font-size: 12px !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+    background-color: #ECF5FE !important;
+    border-radius: 50% !important;
+    color: #4197F7 !important;
+    font-size: 12px !important;
+}
+
+.react-datepicker__day--in-selecting-range {
+    background-color: #ECF5FE !important;
+    border-radius: 50% !important;
+    color: #4197F7 !important;
+    font-size: 12px !important;
+}
+
+.react-datepicker__navigation-icon::before {
+    border-color: #4197F7 !important;
+}
+
+.date-picore .react-datepicker {
+    border: none !important;
+    width: 100%;
+}
+
+.date-picore .react-datepicker__month-container {
+    width: 100% !important;
+}
+
+.date-picore .react-datepicker__day-names {
+    display: flex !important;
+    justify-content: space-between !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px !important;
+    line-height: 30px !important;
+    text-align: center !important;
+    color: #1C2C54 !important;
+}
+
+.date-picore .react-datepicker__week {
+    display: flex !important;
+    justify-content: space-between !important;
+    color: #1C2C54 !important;
+}
+
+.date-picore .react-datepicker__day--selected {
+    background-color: #ECF5FE !important;
+    border-radius: 50% !important;
+    color: #4197F7 !important;
+}
+
+/* <style> */
+.progress {
+    height: 4.5px;
+    width: 200px;
+    background: linear-gradient(90deg, #00CCFF 0%, #007AFF 35.94%, #0000FF 69.79%, #0700C4 97.4%), #FFFFFF;
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    animation: progress-7x9cg2 4.199999999999999s infinite;
+}
+
+@keyframes progress-7x9cg2 {
+    0% {
+        background-position: -150% 0, -150% 0;
+    }
+
+    66% {
+        background-position: 250% 0, -150% 0;
+    }
+
+    100% {
+        background-position: 250% 0, 250% 0;
+    }
+}
+
+/* </style> */
